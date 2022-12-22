@@ -1,0 +1,20 @@
+Source: r-cran-pkgkitten
+Section: gnu-r
+Priority: optional
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Build-Depends: debhelper-compat (= 11), r-base-dev (>= 4.1.1), dh-r
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/edd/r-cran-pkgkitten
+Vcs-Git: https://salsa.debian.org/edd/r-cran-pkgkitten.git
+Homepage: https://cran.r-project.org/package=pkgKitten
+
+Package: r-cran-pkgkitten
+Architecture: all
+Depends: ${misc:Depends}, ${R:Depends}
+Description: GNU R package to create simple packages
+ This package provides a function kitten() which create cute little 
+ packages which pass R CMD check. This sets it apart from 
+ package.skeleton() which it calls, and which leaves imperfect files 
+ behind. As this is not exactly helpful for beginners, kitten() offers 
+ an alternative.
+

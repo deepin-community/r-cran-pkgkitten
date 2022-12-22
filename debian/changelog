@@ -1,0 +1,123 @@
+r-cran-pkgkitten (0.2.2-2) unstable; urgency=medium
+
+  * Simple rebuild for unstable following Debian 11 release
+
+  * debian/control: Set Build-Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 16 Aug 2021 16:41:41 -0500
+
+r-cran-pkgkitten (0.2.2-1) experimental; urgency=medium
+
+  * New upstream release (to experimental during freeze)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 24 Jul 2021 08:54:19 -0500
+
+r-cran-pkgkitten (0.2.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 22 Feb 2021 12:41:27 -0600
+
+r-cran-pkgkitten (0.2.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Switch to virtual debhelper-compat (= 11)
+  * debian/compat: Removed
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 27 Sep 2020 09:31:26 -0500
+
+r-cran-pkgkitten (0.1.5-2) unstable; urgency=medium
+
+  * Rebuilt for r-4.0 transition
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 15 May 2020 21:51:51 -0500
+
+r-cran-pkgkitten (0.1.5-1) unstable; urgency=medium
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 23 Oct 2019 16:30:28 -0500
+
+r-cran-pkgkitten (0.1.4-2) unstable; urgency=medium
+
+  * Rebuilding for R 3.5.0 transition
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Build-Depends: to 'debhelper (>= 10)'
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 02 Jun 2018 12:13:50 -0500
+
+r-cran-pkgkitten (0.1.4-1.2) unstable; urgency=medium
+
+  * (Inofficial) Rebuild for R 3.5.0
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  * debian/control: Add Vcs-Browser: and Vcs-Git:
+  * debian/compat: Increase level to 9
+  * debian/control: Switch from cdbs to dh-r
+  * debian/rules: Idem
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 28 Apr 2018 10:57:58 -0500
+
+r-cran-pkgkitten (0.1.4-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Rebuild for r-api-3.4 transition
+
+ -- Sébastien Villemot <sebastien@debian.org>  Fri, 29 Sep 2017 18:52:18 +0200
+
+r-cran-pkgkitten (0.1.4-1) unstable; urgency=medium
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 18 Nov 2016 15:40:08 -0600
+
+r-cran-pkgkitten (0.1.3-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 19 Jun 2015 09:15:11 -0500
+
+r-cran-pkgkitten (0.1.2-1precise1) precise; urgency=low
+
+  * PPA build for Ubuntu 12.04 ("precise")
+  * debian/control: Remove Depends on R (>= 3.1.1)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 12 Feb 2015 12:01:07 -0600
+
+r-cran-pkgkitten (0.1.2-1precise0) precise; urgency=low
+
+  * PPA build for Ubuntu 12.04 ("precise")
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 12 Feb 2015 11:34:28 -0600
+
+r-cran-pkgkitten (0.1.2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 11 Sep 2014 11:01:14 -0500
+
+r-cran-pkgkitten (0.1.1-1) unstable; urgency=low
+
+  * Initial Debian release 				(Closes: #761142)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 10 Sep 2014 22:00:45 -0500
+
+

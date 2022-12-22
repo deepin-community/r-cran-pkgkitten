@@ -1,0 +1,44 @@
+This is the Debian GNU/Linux r-cran-pkgkitten package of pkgkitten.  The
+pkgkitten package helps in creating simple skeleton R packages.
+It was written by Dirk Eddelbuettel.
+
+This package was created by Dirk Eddelbuettel <edd@debian.org>.
+The sources were downloaded from the main CRAN site
+	http://cran.r-project.org/src/contrib/
+and are also available from all CRAN mirrors as e.g.
+	http://cran.us.r-project.org/src/contrib/
+
+The package was renamed from its upstream name 'pkgKitten' to
+'r-cran-pkgkitten' to fit the pattern of CRAN (and non-CRAN) packages
+for R.
+
+
+Files: *
+Copyright: 2014  Dirk Eddelbuettel <edd@debian.org>
+License: GPL-2+
+
+
+Files: debian/*
+Copyright: 2014  Dirk Eddelbuettel <edd@debian.org>
+License: GPL-2+
+
+On a Debian GNU/Linux system, the GPL license (version 2) is included in the file
+/usr/share/common-licenses/GPL-2.
+
+
+For reference, the upstream DESCRIPTION file is included below:
+
+   Package: pkgKitten
+   Type: Package
+   Title: Create Simple Packages Which Do Not Upset R CMD check
+   Version: 0.1.1
+   Date: 2014-09-10
+   Author: Dirk Eddelbuettel
+   Maintainer: Dirk Eddelbuettel <edd@debian.org>
+   Description: Provides a function kitten() which create cute little 
+    packages which pass R CMD check. This sets it apart from 
+    package.skeleton() which it calls, and which leaves imperfect files 
+    behind. As this is not exactly helpful for beginners, kitten() offers 
+    an alternative.
+   License: GPL (>= 2)
+   Packaged: 2014-09-10 11:01:48.652466 UTC; edd
